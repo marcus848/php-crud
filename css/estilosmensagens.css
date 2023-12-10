@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    padding: 10px 50px;
+
+}
+
+
+
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    background: #e6e6e6;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 20vw;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.login-form-input {
+    /* width: 90%; */
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+.login-form-button {
+    background: green;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-button:hover {
+    background: rgb(13, 166, 13);
+}
+
+.mensagens {
+    max-width: 100vw;
+}
+
+.mensagens-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "form" "form" "form" "form";
+}
+
+.mensagens-mensagem {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    background: #e6e6e6;
+    padding: 10px 20px 20px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type="text"].disable {
+    pointer-events: none;
+    background: none;
+    border: none;
+}
+
+textarea.disable {
+    pointer-events: none;
+    background: #ababab;
+    border: none;
+}
+
+.mensagem-nav {
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+    justify-content: center;
+    font-style: italic;
+    margin: 0 0 5px 0;
+    position: relative;
+}
+
+.mensagem-edit {
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.mensagem-input {
+    display: flex;
+    margin: 5px 0 0 0;
+    align-items: center;
+}
+
+.mensagem-texto {
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagem-input label {
+    padding: 3px 0;
+}
+
+.mensagem-input input {
+    width: 100%;
+    padding: 3px;
+
+}
+
+.mensagem-texto textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mensagem-texto label {
+    margin: 0 0 5px 0;
+}
+
+.editar-apagar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10px;
+}
+
+.editar-apagar button,
+.editar-apagar a {
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #ababab;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.edit-active {
+    background-color: white;
+    border-color: #787878;
+
+}
+
+.hidden {
+    display: none;
+}
