@@ -27,23 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     var deleteButtons = document.querySelectorAll('.mensagem-editar');
-
-//     deleteButtons.forEach(function (btn) {
-//         btn.addEventListener('click', function () {
-//             var delid = this.getAttribute('data-id');
-//             var id = delid.replace('editBt-', '');
-//             var form = document.getElementById('form-' + id);
-//             form.action = 'processar-edicao2.php'; // Certifique-se de que este caminho esteja correto
-//             form.submit();
-//             // alert("edit")
-//             // location.reload()
-//         });
-//     });
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
     var deleteButtons = document.querySelectorAll('.mensagem-delete');
 

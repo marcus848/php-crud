@@ -144,8 +144,7 @@ textarea.disable {
     margin-top: 10px;
 }
 
-.editar-apagar button,
-.editar-apagar a {
+.editar-apagar button {
     text-decoration: none;
     padding: 5px 20px;
     background: #ababab;
