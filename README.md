@@ -76,7 +76,7 @@ O projeto consiste em várias partes principais:
 - [ ]  Faça Alterações: Edite o código para personalizar ou expandir a funcionalidade do sistema.
 - [ ]  Teste as Alterações: Verifique se suas alterações funcionam conforme esperado acessando as páginas relevantes.
 
-## Participe e Cresça com o Projeto
+## Participe e Cresça com o Projeto 🚀
 Sinta-se à vontade para usar, modificar e melhorar este sistema. Ao compartilhar suas próprias versões no GitHub, você contribui para uma comunidade de aprendizes e entusiastas do PHP. 
 Juntos, podemos aprender mais, experimentar mais e crescer mais no mundo do desenvolvimento web. 🌟👨‍💻🌐
 
